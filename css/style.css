@@ -1,0 +1,231 @@
+/* NUEVO SCRIPT */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo {
+    max-width: 120px;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .logo {
+        max-width: 90px;
+    }
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer {
+    background-color: #003366;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    /* margin: 15px; */
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+
+.bienvenida {
+    text-align: center;
+    padding: 5% 2%;
+    background-color: #e6e6e6;
+}
+
+.bienvenida h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.bienvenida p {
+    font-size: 1.2em;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.servicios {
+    padding: 30px;
+    background-color: #fff;
+}
+
+.servicios h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #003366;
+}
+
+.servicios ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer div {
+    margin-bottom: 10px;
+    text-align: center;
+    margin-top: auto;
+}
+
+.logearse, .registro {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #003366;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+input {
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #003366;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #005099;
+}
+
+button .collapsed:hover {
+    background-color: #005099;
+    color: white;
+    transform: scale(1.05);
+}
+
+/* @media (min-width: 900px) {
+    nav ul {
+        justify-content: flex-end;
+    }
+
+    .bienvenida {
+        padding: 5% 2%;
+    }
+
+    .servicios ul {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 2%;
+        width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .bienvenida h1 {
+        font-size: 2em;
+    }
+
+    .bienvenida p {
+        font-size: 1em;
+    }
+    
+    .servicios ul li {
+        padding: 15px;
+    }
+} */
+
+
+/* RECOMENDACION CON RESPETO AL TAMAÑO DE LOS BOTONES DE SERVICIOS QUE DEBERIAN VERSE MAS GRANDE QUE EL PARRAFO
+    QUE EXPLICA EN DETALLE EL SERVICIO */
+
+/* Personalización de los botones del acordeón */
+.accordion-button {
+    font-size: 1.5rem !important;
+    font-weight: bold;
+    padding: 15px !important;
+    background-color: #f8f9fa !important;
+    color: #212529;
+    border: 2px solid #ced4da;
+    transition: background-color 0.3s ease;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #003366 !important;
+    color: white !important;
+}
+
+.accordion-button:focus {
+    box-shadow:none;
+}
+
+.accordion-body {
+    font-size: 1rem;
+}
+
+.map-responsive {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.map-responsive iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
