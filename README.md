@@ -46,6 +46,8 @@ Además, agregue la siguiente información a su archivo `README`:
 - ¿Hay alguna mejora que pueda hacer en su envío?
 - ¿Qué haría de manera diferente si se le asignara más tiempo?
   <br/>
+  * Si, seguro que se pueden hacer mejoras, como agregar opiniones de clientes, agregar una sección que sea llenar un formulario donde se dejan los datos de la persona para que la Escribanía se contacte.
+  * Si tuviera mas tiempo agregaria estos detalles que suman lo llamativo de la pagina.
   <br/>
 
 ## Detalles
