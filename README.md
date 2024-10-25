@@ -49,7 +49,12 @@ Además, agregue la siguiente información a su archivo `README`:
   * Si, seguro que se pueden hacer mejoras, como agregar opiniones de clientes, agregar una sección que sea llenar un formulario donde se dejan los datos de la persona para que la Escribanía se contacte.
   * Si tuviera mas tiempo agregaria estos detalles que suman lo llamativo de la pagina.
   <br/>
-
+- En su trabajo, ¿cuál considera que fue lo más difícil de realizar?
+  <br/>
+  * Lo mas dificil fue implementar bootstrap, ya que tenia que investigar sobre sus propiedades y no lograba los resultados esperados, pero se pudo resolver.
+  <br/>
+- ¿Podría decirnos en qué se inspiró para realizar su página web? ¿Utilizó alguna página existente como referencia?
+  * Mi inspiracion vino de mi ambiente laboral, ya que trabajo en una escribanía. Sí, investigue sobre algunas paginas existentes, aunque la mayoria eran informativas. Lo cual tambien me limitaba a diseñarlo de una manera similar.
 ## Detalles
 
 Necesitará construir las siguientes pagínas:
